@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/250adc9f90.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo/logo.png" class="logo"> 
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li> 
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>    
+                     </ul>
+
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Programmer</p>
+            <h1>Hii, I'm <span>Harshwardhan</span> Rajapure<br>From Kolhapur</h1>
+        </div>
+    </div>
+ </div>
+
+ <!---------------about---------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/main2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Computer Science and Engineering Student at SITCOE,
+                    Yadrav.<br>
+                    I love to build and design things. I have worked extensively in
+                    teams. <br>I am highly analytical,diligent,a leader and a team
+                    player
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</Web-Development></li>
+
+                            <li><span>Web Development</span><br>Web App Development</Web-Development></li>
+
+                            <li><span>App Development</span><br>Building Android/iOS apps</Web-Development></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Stormsoft Technology</span><br>As a Trainee<br>Web Development,HTML & CSS</Web-Development></li>
+
+                            <li><span>Ample System</span><br>Training<br>Basic Data Science</Web-Development></li>
+
+                            <li><span>Zensar Technologies</span><br>OCT 2022</Web-Development></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>Sharad Institute of Technology,College of Engineering,Yadrav <br> (2021-2024)</Web-Development></li>
+
+                            <li><span>HSC</span><br>Devchand College,Arjunnagar<br>(Feb-2020)</Web-Development></li>
+
+                            <li><span>SSC</span><br>New English School, Hamidwada<br>(March-2018)</Web-Development></li>
+
+                        </ul>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+ </div>
+
+ <!-----------------------Services--------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>qwerty uiopa sdgfg hhjklz xcvbnm qwerty uiopa sdgfg hhjklz xcvbnm qwerty 
+                    uiopa sdgfg hhjklz xcvbnm qwerty uiopa sdgfg hhjklz xcvbnm.</p>
+                    <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>qwerty uiopa sdgfg hhjklz xcvbnm qwerty uiopa sdgfg hhjklz xcvbnm qwerty 
+                    uiopa sdgfg hhjklz xcvbnm qwerty uiopa sdgfg hhjklz xcvbnm.</p>
+                    <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>qwerty uiopa sdgfg hhjklz xcvbnm qwerty uiopa sdgfg hhjklz xcvbnm qwerty 
+                    uiopa sdgfg hhjklz xcvbnm qwerty uiopa sdgfg hhjklz xcvbnm.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------Portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.webp">
+                <div class="layer">
+                    <h3>Email Alert in Text Message</h3>
+                    <p>Created a workflow in Twilio and using a transferring 
+                        medium which queries the requested email data, and sends their details to
+                        given mobile number's text message.
+                        </p>
+                    <a href="projectreport1.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work2.webp">
+                <div class="layer">
+                    <h3>Geo-Location based Medical Emergency Service</h3>
+                    <p> Created an Android App which send text message to given mobile number.
+                        </p>
+                    <a href="projectreport2.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+
+            <div class="work">
+                <img src="images/work3.webp">
+                <div class="layer">
+                    <h3>Technical Professional Hiring System for Local Service</h3>
+                    <p>We developed platform which provide information about nearest service providers in particular area.
+                        In future we can deploy this project globally, so it will be a global platform for all service providers for finding the job.  
+                        </p>
+                    <a href="projectreport3.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+</div>
+
+<!----------------------Contact----------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>contact@harshrajapure2001@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8767146295</p>
+                <div class="social-icons">
+
+
+                    <a href="https://instagram.com/its_king_.harsh._?igshid=ZDc4ODBmNjlmNQ=="><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="https://www.linkedin.com/in/harshwardhan-rajapure-62a993215"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/harshu.rajapure"><i class="fa-brands fa-facebook"></i></a>
+
+                    <a href="https://twitter.com/HarshRajapure?t=CSu_qQQApCYP5lJEwIZr0w&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+
+                </div>
+                <a href="CV Harsh.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Harsh<i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+  <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+  </script>  
+  <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzBrw_jJ_pk--svrL4pfn769qkLHGKtH38xr0N4dmrUJLH1mEX6H-QyjNSshHWa4ljMTQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg =document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully..!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
